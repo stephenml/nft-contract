@@ -6,3 +6,4 @@
 
 * [创建 OpenSea NFT ERC-721智能合约 (1)](https://stephen.ml/archives/37)
 * [创建 OpenSea NFT ERC-721智能合约 (2)](https://stephen.ml/archives/59)
+* [创建 OpenSea NFT ERC-721智能合约 (3)](https://stephen.ml/archives/68)

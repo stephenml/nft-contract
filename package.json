@@ -4,8 +4,16 @@
   "description": "OpenSea NFT ERC-721智能合约",
   "main": "index.js",
   "scripts": {
-    "compile": "npx hardhat compile",
-    "deploy:rinkeby": "npx hardhat run scripts/deploy.js --network rinkeby"
+    "compile:rinkeby": "NODE_ENV=development npx hardhat compile",
+    "hardhat:rinkeby": "NODE_ENV=development npx hardhat",
+    "check-balance:rinkeby": "NODE_ENV=development npx hardhat check-balance",
+    "deploy:rinkeby": "NODE_ENV=development npx hardhat deploy",
+    "mint:rinkeby": "NODE_ENV=development npx hardhat mint --address",
+    "compile:ethereum": "NODE_ENV=production npx hardhat compile",
+    "hardhat:ethereum": "NODE_ENV=production npx hardhat",
+    "check-balance:ethereum": "NODE_ENV=production npx hardhat check-balance",
+    "deploy:ethereum": "NODE_ENV=production npx hardhat deploy",
+    "mint:ethereum": "NODE_ENV=production npx hardhat mint --address"
   },
   "author": "Stephen",
   "license": "GPL-3.0",
