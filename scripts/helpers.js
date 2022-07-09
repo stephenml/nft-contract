@@ -27,9 +27,15 @@ function getContract(contractName, hre) {
   return getContractAt(hre, contractName, getEnvVariable("NFT_CONTRACT_ADDRESS"), account);
 }
 
+// Helper method for fetching a IPFS Gateway URL
+function getBaseUrl() {
+  return getEnvVariable("BASE_URL")
+}
+
 module.exports = {
   getEnvVariable,
   getProvider,
   getAccount,
   getContract,
+  getBaseUrl,
 }

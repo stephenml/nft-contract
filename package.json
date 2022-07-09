@@ -8,12 +8,16 @@
     "hardhat:rinkeby": "NODE_ENV=development npx hardhat",
     "check-balance:rinkeby": "NODE_ENV=development npx hardhat check-balance",
     "deploy:rinkeby": "NODE_ENV=development npx hardhat deploy",
+    "set-base-token-uri:rinkeby": "NODE_ENV=development npx hardhat set-base-token-uri",
     "mint:rinkeby": "NODE_ENV=development npx hardhat mint --address",
+    "token-uri:rinkeby": "NODE_ENV=development npx hardhat token-uri --token-id",
     "compile:ethereum": "NODE_ENV=production npx hardhat compile",
     "hardhat:ethereum": "NODE_ENV=production npx hardhat",
     "check-balance:ethereum": "NODE_ENV=production npx hardhat check-balance",
     "deploy:ethereum": "NODE_ENV=production npx hardhat deploy",
-    "mint:ethereum": "NODE_ENV=production npx hardhat mint --address"
+    "set-base-token-uri:ethereum": "NODE_ENV=production npx hardhat set-base-token-uri",
+    "mint:ethereum": "NODE_ENV=production npx hardhat mint --address",
+    "token-uri:ethereum": "NODE_ENV=production npx hardhat token-uri --token-id"
   },
   "author": "Stephen",
   "license": "GPL-3.0",
